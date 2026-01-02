@@ -7,6 +7,7 @@ def searchInsert(nums: List[int], target: int) -> int:
 
     low = 0
     high = len(nums)-1
+    print("High :", nums[high])
     while low <= high:
         mid = (high+low)//2
         if nums[mid] == target:
